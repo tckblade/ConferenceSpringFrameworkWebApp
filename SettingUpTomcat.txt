@@ -1,0 +1,19 @@
+Prereqiusit
+Download Tomcat v9 Core as Zip file and extract after downloading.
+https://tomcat.apache.org/download-90.cgi
+
+In Intellij or any IDE you are using, install Smart Tomcat plugin
+
+Go to settings and select "Tomcat server".
+copy and paste the directory of the Tomcat core you downloaded and press apply
+
+General Usage Instructions
+1.In Run/Debug, choose SmartTomcat
+2.config the run/debug config
+Tomcat Server : config or choose tomcat server
+Deployment : choose the webapp folder, e.g. "src\main\webapp"
+Context Path : input the contextPath, e.g. "/mycontextpath"
+Server Port : input the server port, e.g. "8080"
+VM Options : input the vm options, e.g. "-DENV=DEV"
+3.start run/debug
+enjoy it~
